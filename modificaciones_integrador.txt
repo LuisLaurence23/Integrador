@@ -1,0 +1,11 @@
+columnas agragadas:
+	
+	-prioridad_cliente_etl (0 y 1= clientes regulares, 2 clientes alta p.)
+	-Columna tiempo en espera vru_etl (valores negativos=0)
+	-Día semana (nombre del día de la semana, respecto a columna Fecha)
+	-IdCliente_etl (sin ID duplicados, concatenando Linea VRU con Id llamada)
+	-Hora (Hora de los ingresos de llamada formato 24hrs)
+	-Espera total (suma de las esperas de vru y cola) en segundos
+	-Recibio/NoRecibio (contiene si recibio servicio o no)
+	-Eficiencia (si la espera vru es menos a 90 segundos se considera llamada eficiente de lo contrario No eficiente)
+
